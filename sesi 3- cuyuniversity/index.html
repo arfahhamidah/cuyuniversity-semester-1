@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESI3 - HTML CSS BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .tanpa-bootstrap {
+            border: none;
+            padding: 20px;
+            font-weight: 800;
+            font-size: 3em;
+            background-color: tomato;
+            color: #333;
+            cursor: pointer;
+        }
+        .tanpa-bootstrap:hover {
+            background-color: aqua;
+            color: black;
+            transform: rotateY('2');
+            transition: all .5s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- Ini navbar -->
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand">CrochetedbyArf</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <!-- Ini navbar end -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <img src="jamur.jpeg" class="d-block w-100" style="height: 50vh;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="sunflower.jpg" class="d-block w-100" style="height: 50vh;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="whale.jpeg" class="d-block w-100 " style="height: 50vh;" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!-- Ini produk saya -->
+        <div class="container mt-2">
+            <div class="row">
+                <div class="card col-12 col-md-3 col-sm-6">
+                    <div class="card-header">
+                      Sunflower crochet keychain
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sunflower lucu</h5>
+                      <img src="sunflower.jpg" class="img-thumbnail" alt="">
+                      <p class="card-text">Dibuat dengan cinta dengan menggunakan benang berkualitas</p>
+                      <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-3 col-sm-6">
+                    <div class="card-header">
+                      Whale Crochet keychain
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Whale crochet berkualitas</h5>
+                      <img src="whale.jpeg" class="img-thumbnail" alt="">
+                      <p class="card-text">Dibuat dengan benang berwarna putih dan biru dengan rajutan yang rapih</p>
+                      <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-3 col-sm-6">
+                    <div class="card-header">
+                      Octopus crochet keychain
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Gantungan Kunci gurita warna-warni</h5>
+                      <img src="octopus.jpeg" class="img-thumbnail" alt="">
+                      <p class="card-text">Tersedia berbagai warna yang lembut dan cocok digunakan sebagai hiasan tas</p>
+                      <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-3 col-sm-6">
+                    <div class="card-header">
+                      Mushrooms crochet keychain
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Gantungan Kunci gurita warna-warni</h5>
+                      <img src="jamur.jpeg" class="img-thumbnail" alt="">
+                      <p class="card-text">Tersedia berbagai warna yang lembut dan cocok digunakan sebagai hiasan tas</p>
+                      <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ini produk saya end -->
+    </div>
+
+
+    <!-- Javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
